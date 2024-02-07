@@ -1,9 +1,11 @@
-package ir.self.springbatch;
+package ir.self;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
+@EnableScheduling
 public class SpringBatchApplication {
 
 	public static void main(String[] args) {
