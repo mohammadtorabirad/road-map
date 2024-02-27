@@ -1,4 +1,4 @@
-package org.example;
+package self.binarygap;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
