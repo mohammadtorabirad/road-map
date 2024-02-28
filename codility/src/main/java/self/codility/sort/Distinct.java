@@ -16,5 +16,4 @@ public class Distinct {
         return map.keySet().size();
 
     }
-    
 }
