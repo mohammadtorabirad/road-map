@@ -21,10 +21,11 @@ public class ThreeLetters {
         StringBuilder retVal = new StringBuilder();
         boolean bigNumTurn = true;
         double rate = 0;
-        if (smallInput > 1) {
-            rate = (double)bigInput / (double)smallInput;
-        }
         while (bigInput > 0 && smallInput > 0) {
+
+            if (smallInput > 1) {
+                rate = (double)bigInput / (double)smallInput;
+            }
 
             if (bigNumTurn) {
                 if (bigInput >= 2) {
@@ -62,7 +63,7 @@ public class ThreeLetters {
 
     public static void main(String[] args) {
         ThreeLetters threeLetters = new ThreeLetters();
-        System.out.println(threeLetters.solution(19, 13));
+        System.out.println(threeLetters.solution(6, 2));
     }
 
 }
